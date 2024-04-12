@@ -3,9 +3,9 @@
 function scr_draw_check(){
 	var i, j;
 	
-	for(i=0;i<6;i++)
+	for(i=0;i<10;i++)
 	{
-		for(j=0;j<6;j++)
+		for(j=0;j<10;j++)
 		{
 			if(field[i,j] == 0)
 			{
